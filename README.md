@@ -7,7 +7,9 @@
 ---
 
 ## Features (v1.0)
-- **100% Scenario Dialogue Coverage:** All `136` Vita `.bin` scenario scripts (`22,504` dialogue lines) translated — `18,583` matched from the official PC-98 English release plus `3,843` Saturn/remaster-exclusive lines translated cleanly.
+- **100% Scenario Dialogue Coverage:** All `136` Vita `.bin` scenario scripts (`22,504` dialogue lines) translated:
+  - **81.0% (`18,227` lines)** sourced from the [DESIRE: Haitoku no Rasen PC-9801 English Translation Patch (v1.2)](https://gbatemp.net/download/desire-haitoku-no-rasen-pc-9801-english-translation-patch.37851/) by **MrSilentVid & collaborators**.
+  - **19.0% (`4,277` lines)** newly translated Saturn / PS Vita remaster-exclusive dialogue, plus localized remaster UI textures.
 - **Native Engine Wrapping:** Uses Vita native `[n]` line breaks and automatic `[w080][h080]` / `[w070][h070]` / `[w065][h065]` font scaling with a `42`-character line limit so dialogue fits cleanly inside the remaster text box without mid-word wrapping or clipping.
 - **Localized Action & Investigation Buttons:**
   - `cmd1.png`: Main verbs (`LOOK / EXAMINE`, `TALK`, `THINK`, `MOVE`) and all sub-actions in Normal & Hover states.
@@ -42,5 +44,7 @@ If you only have Base v1.00 without Update 1.01 installed:
 
 ---
 
-## Legal / Credits
-This repository contains **zero copyrighted game assets** — only localization patches and open-source PSARC injection tools. You must supply your own legally dumped copy of *DESIRE remaster ver.* (`PCSG00959`).
+## Credits & Legal
+- **PC-9801 English Translation (`81.0%` / `18,227` lines):** [DESIRE: Haitoku no Rasen (PC-9801) English Translation Patch v1.2](https://gbatemp.net/download/desire-haitoku-no-rasen-pc-9801-english-translation-patch.37851/) by **MrSilentVid & collaborators**.
+- **PS Vita Remaster Port, Additional Script Translation (`19.0%` / `4,277` lines), & UI Texture Localization:** `fiksr`.
+- **Legal:** This repository contains **zero copyrighted game assets** — only localization patches and open-source PSARC injection tools. You must supply your own legally dumped copy of *DESIRE remaster ver.* (`PCSG00959`).
